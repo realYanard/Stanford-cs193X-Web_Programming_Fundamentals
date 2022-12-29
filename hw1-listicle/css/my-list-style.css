@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+main{
+    margin-top: 60px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-image: url("../images/foot.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#title{
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    max-width: 780px;
+    text-align: center;
+}
+img{
+    display: block;
+    width: 30%;
+    aspect-ratio: 1/1.3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 75px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 25px 0;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    color:darkgray;
+}
+span{
+    margin-right: 40px;
+}

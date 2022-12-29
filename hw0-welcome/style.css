@@ -1,0 +1,13 @@
+body {
+  font-family: monospace;
+  text-align: center;
+}
+ img{
+  width: 30%;
+  aspect-ratio: auto;
+ }
+ p{
+  margin-top: -1em;
+  margin-bottom: 2em;
+  font-size: 1.1em;
+ }

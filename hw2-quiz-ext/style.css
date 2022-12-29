@@ -1,0 +1,38 @@
+/* TODO(you): Write the CSS to finish the assignment! */
+.choice-grid{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px 0;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.choice-grid > div{
+    flex-shrink: 1;
+    width: 32.5%;
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.choice-grid > div > img{
+    width: 100%;
+}
+.result{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+h2{
+    margin-bottom: 18px;
+}
+button{
+    background-color: #cecece;
+    width: 100%;
+    height: 50px;
+    margin-top: 18px;
+    border: 1px solid white;
+    font-size: 1.1em;
+}
+button:hover{
+    background-color: #e0e0e0;
+}
