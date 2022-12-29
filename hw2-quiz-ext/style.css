@@ -1,4 +1,23 @@
 /* TODO(you): Write the CSS to finish the assignment! */
+@media screen and (max-width: 700px) and (min-width: 500px) {
+    article {
+      width: 95%;
+    }
+    header div span{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    article {
+        width: 95%;
+      }
+      header div span{
+          display: none;
+      }
+    .choice-grid > div{
+        width: 49%;
+    }
+  }
 .choice-grid{
     display: flex;
     flex-flow: row wrap;
@@ -9,6 +28,7 @@
 .choice-grid > div{
     flex-shrink: 1;
     width: 32.5%;
+    min-width: 175px;
     background-color: #f4f4f4;
     border: 1px solid #dcdcdc;
     box-sizing: border-box;
